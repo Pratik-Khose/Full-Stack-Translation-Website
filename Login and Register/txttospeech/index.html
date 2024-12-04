@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-to-Speech Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+      <h1>Text-to-Speech <span>Converter</span></h1>
+      <input type="file" id="myFile" name="filename">  
+      <br><br>  
+      <textarea cols="30" name="original" rows="10" style="width: 100%;" id="convertedText"></textarea>
+      <button>Submit</button><br>
+      <button id="aik">Listen</button><br>
+      <select></select>
+  </form>
+    <script src="script.js"></script>
+
+    <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
+
+    <script>  
+    var myFile = document.getElementById('myFile');
+    var myForm = document.getElementById('myForm');
+    myForm.addEventListener('submit', onSubmit);
+    async function recognizeText({ target: { files } }) {
+        Tesseract.recognize(files[0]).then(function(result) {
+            console.log("recognizeText: result.text:", result.text);
+            document.getElementById("convertedText").value = result.text;
+        });
+    }
+    // Define the onSubmit function to handle the form submission
+    function onSubmit(event) {
+        event.preventDefault(); // Prevent the default form submission
+        // Call the recognizeText function to convert the image to text
+        recognizeText({ target: { files: [myFile.files[0]] } });
+    }
+    </script>
+</body>
+</html>

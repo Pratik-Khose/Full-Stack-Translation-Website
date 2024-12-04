@@ -5,12 +5,17 @@
 Welcome to the **Full Stack Translation Website**! Follow the instructions below to set up and run the project locally on your system using XAMPP.
 
 # Screenshots-
-![Screenshot 2024-12-04 235714](https://github.com/user-attachments/assets/8eba28d4-65d4-48e0-95eb-5d7a656b49f8)
-![Screenshot 2024-12-04 235650](https://github.com/user-attachments/assets/cdf9f3b3-f485-410f-8da6-5302a7f90116)
-![Screenshot 2024-12-04 235643](https://github.com/user-attachments/assets/4101289e-7805-4188-bd49-ff1071560105)
-![Screenshot 2024-12-04 235620](https://github.com/user-attachments/assets/541ffdfa-11b1-4f06-8342-cca92772ecfe)
-![Screenshot 2024-12-04 235608](https://github.com/user-attachments/assets/a940ab39-d05b-44d3-ae39-c95a28d11a5e)
 ![Screenshot 2024-12-04 235553](https://github.com/user-attachments/assets/aeb63a46-8b7f-4c15-a6d3-37f72a449aa2)
+
+![Screenshot 2024-12-04 235608](https://github.com/user-attachments/assets/a940ab39-d05b-44d3-ae39-c95a28d11a5e)
+
+![Screenshot 2024-12-04 235620](https://github.com/user-attachments/assets/541ffdfa-11b1-4f06-8342-cca92772ecfe)
+
+![Screenshot 2024-12-04 235643](https://github.com/user-attachments/assets/4101289e-7805-4188-bd49-ff1071560105)
+
+![Screenshot 2024-12-04 235650](https://github.com/user-attachments/assets/cdf9f3b3-f485-410f-8da6-5302a7f90116)
+
+![Screenshot 2024-12-04 235714](https://github.com/user-attachments/assets/8eba28d4-65d4-48e0-95eb-5d7a656b49f8)
 
 
 ---
